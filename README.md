@@ -11,8 +11,18 @@ Leeon is a fictional grocery detail business that operates in multiple locations
 
 <img width="371" height="271" alt="image" src="https://github.com/user-attachments/assets/dfcb1892-8c8f-4181-af64-c91df9f18126" />
 
-## ⛄🌀⭐ Project Goals⭐🌀⛄ 
-1. Identify top-performing product categories.
-2. Analyze factors driving revenue.
-3. Evaluate pricing strategies and their impact on sales.
-4. Summarize overall insights regarding sales performance.
+## ⛄🌀⭐ Project Goals ⭐🌀⛄ 
+1. Identification of High-Performing Product Categories
+The initial phase involves identifying the product categories that are generating the most significant revenue. This requires a detailed examination of sales data to pinpoint which segments are excelling and contributing most substantially to the overall financial performance of the business. Understanding these top performers is crucial for strategic planning, as it allows for the allocation of resources to areas with proven success.
+
+2. Analysis of Key Revenue Drivers
+Following the identification of top categories, it is essential to analyze the underlying factors that are driving revenue. This analysis goes beyond simple sales figures to explore the causal relationships between various business activities and financial outcomes. Such factors may include marketing campaigns, promotional events, seasonal trends, and customer demographics. A thorough understanding of these drivers provides valuable insights for optimizing future sales strategies.
+
+3. Evaluation of Pricing Strategies and Their Sales Impact
+This step involves a critical evaluation of existing pricing strategies. It's important to assess how different price points, discounts, and promotional offers affect sales volume and revenue. This evaluation should consider the elasticity of demand for various products and the competitive landscape. By understanding the direct impact of pricing on sales, we can refine our strategies to maximize profitability and market share.
+
+4. Synthesis of Overall Insights on Sales Performance
+The final step is to synthesize all the data and findings into a coherent summary. This summary should provide a holistic view of the company's sales performance, incorporating insights from the analyses of product categories, revenue drivers, and pricing strategies. The goal is to articulate actionable recommendations and strategic conclusions that can guide future business decisions and drive sustained growth. This comprehensive overview serves as a foundational document for stakeholders, informing them of the key trends and opportunities within the sales domain.
+
+## ⛄🌀⭐ License ⭐🌀⛄ 
+- Copyright by Diantya Pitaloka

@@ -11,3 +11,4 @@ Leeon is a fictional grocery detail business that operates in multiple locations
 
 <img width="371" height="271" alt="image" src="https://github.com/user-attachments/assets/dfcb1892-8c8f-4181-af64-c91df9f18126" />
 
+## ⛄🌀⭐ Project Goals⭐🌀⛄ 

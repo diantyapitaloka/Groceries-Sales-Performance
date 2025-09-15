@@ -44,6 +44,10 @@ JOIN `fsda-sql-01.grocery_dataset.categories` c
 GROUP BY categoryname
 ```
 
+
+<img width="275" height="156" alt="image" src="https://github.com/user-attachments/assets/a06ae8de-0ff2-4d4a-bc67-0e11e037c5c9" />
+
+
 Summary :
 The Confections category (sweets/snacks) generates the highest revenue at 565.9 million, surpassing essential categories like Meat and Poultry. This highlights the strong consumer appeal of sweet products — even more than daily staples. 
 

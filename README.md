@@ -28,6 +28,24 @@ The final step is to synthesize all the data and findings into a coherent summar
 
 <img width="556" height="188" alt="image" src="https://github.com/user-attachments/assets/35c4f546-9985-4f27-80d1-16499b9c6547" />
 
+## ⛄🌀⭐ Identify the product category that generates the highest revenue ⭐🌀⛄  
+Query :
+```
+SELECT
+    categoryname,
+    SUM(s.Quantity * p.Price) AS total_price_before_discount,
+    SUM(s.Quantity * p.Price * s.Discount) AS total_discount,
+    SUM(s.Quantity * p.Price - (s.Quantity * p.Price * s.Discount)) AS total_revenue
+FROM `fsda-sql-01.grocery_dataset.sales` s
+JOIN `fsda-sql-01.grocery_dataset.products` p
+    ON s.ProductID = p.ProductID
+JOIN `fsda-sql-01.grocery_dataset.categories` c
+    ON p.CategoryID = c.CategoryID
+GROUP BY categoryname
+```
+
+Summary :
+The Confections category (sweets/snacks) generates the highest revenue at 565.9 million, surpassing essential categories like Meat and Poultry. This highlights the strong consumer appeal of sweet products — even more than daily staples. 
 
 
 ## ⛄🌀⭐ License ⭐🌀⛄ 

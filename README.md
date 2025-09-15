@@ -52,5 +52,28 @@ Summary :
 The Confections category (sweets/snacks) generates the highest revenue at 565.9 million, surpassing essential categories like Meat and Poultry. This highlights the strong consumer appeal of sweet products — even more than daily staples. 
 
 
+## ⛄🌀⭐ Assess the correlation between revenue and total units sold for each product category ⭐🌀⛄  
+Query :
+```
+SELECT
+    c.categoryname,
+    SUM(s.Quantity * p.Price * (1 - s.Discount)) AS total_revenue,
+    SUM(s.Quantity) AS total_units_sold      
+FROM `fsda-sql-01.grocery_dataset.sales` s
+JOIN `fsda-sql-01.grocery_dataset.products` p
+    ON s.ProductID = p.ProductID
+JOIN `fsda-sql-01.grocery_dataset.categories` c
+    ON p.CategoryID = c.CategoryID
+GROUP BY c.CategoryID, c.categoryname
+ORDER BY total_units_sold DESC
+```
+
+<img width="271" height="191" alt="image" src="https://github.com/user-attachments/assets/5c7ad9c1-bdce-4c51-82ea-6b04ef72796b" />
+
+Summary :
+There’s a strong positive correlation between total revenue and units sold — categories like Confections and Meat top both metrics. However, Poultry stands out with fewer units sold than Meat but still ranks 3rd in revenue — suggesting a higher price per unit. 
+
+
+
 ## ⛄🌀⭐ License ⭐🌀⛄ 
 - Copyright by Diantya Pitaloka

@@ -2,14 +2,19 @@
 
 Leeon is a fictional grocery detail business that operates in multiple locations, offering a diverse range of grocery products to customers. The company aims to optimize sales strategies, enhance customer experience, and increase revenue by leveraging data-driven decision-making.
 
+
+
 ## ⛄🌀⭐ Dataset Schema ⭐🌀⛄
 
 <img width="557" height="269" alt="image" src="https://github.com/user-attachments/assets/c2d1136b-75ed-4ecb-b957-ee39479637e0" />
 
 
+
 ## ⛄🌀⭐  Dataset Overview ⭐🌀⛄
 
 <img width="371" height="271" alt="image" src="https://github.com/user-attachments/assets/dfcb1892-8c8f-4181-af64-c91df9f18126" />
+
+
 
 ## ⛄🌀⭐ Project Goals ⭐🌀⛄ 
 1. Identification of High-Performing Product Categories
@@ -24,9 +29,13 @@ This step involves a critical evaluation of existing pricing strategies. It's im
 4. Synthesis of Overall Insights on Sales Performance
 The final step is to synthesize all the data and findings into a coherent summary. This summary should provide a holistic view of the company's sales performance, incorporating insights from the analyses of product categories, revenue drivers, and pricing strategies. The goal is to articulate actionable recommendations and strategic conclusions that can guide future business decisions and drive sustained growth. This comprehensive overview serves as a foundational document for stakeholders, informing them of the key trends and opportunities within the sales domain.
 
+
+
 ## ⛄🌀⭐ Methodology ⭐🌀⛄ 
 
 <img width="556" height="188" alt="image" src="https://github.com/user-attachments/assets/35c4f546-9985-4f27-80d1-16499b9c6547" />
+
+
 
 ## ⛄🌀⭐ Identify the product category that generates the highest revenue ⭐🌀⛄  
 Query :
@@ -52,6 +61,7 @@ Summary :
 The Confections category (sweets/snacks) generates the highest revenue at 565.9 million, surpassing essential categories like Meat and Poultry. This highlights the strong consumer appeal of sweet products — even more than daily staples. 
 
 
+
 ## ⛄🌀⭐ Assess the correlation between revenue and total units sold for each product category ⭐🌀⛄  
 Query :
 ```
@@ -72,6 +82,29 @@ ORDER BY total_units_sold DESC
 
 Summary :
 There’s a strong positive correlation between total revenue and units sold — categories like Confections and Meat top both metrics. However, Poultry stands out with fewer units sold than Meat but still ranks 3rd in revenue — suggesting a higher price per unit. 
+
+
+
+## ⛄🌀⭐ The correlation between revenue and the number of unique customers for each product category  ⭐🌀⛄  
+Query :
+```
+SELECT
+    c.CategoryName,
+    SUM(s.Quantity * p.Price * (1 - s.Discount)) AS total_revenue,
+    COUNT(DISTINCT s.CustomerID) AS number_of_customers
+FROM `fsda-sql-01.grocery_dataset.sales` s
+JOIN `fsda-sql-01.grocery_dataset.products` p
+    ON s.ProductID = p.ProductID
+JOIN `fsda-sql-01.grocery_dataset.categories` c
+    ON p.CategoryID = c.CategoryID
+GROUP BY c.CategoryName
+ORDER BY number_of_customers DESC
+
+```
+
+
+Summary :
+Confections and Meat not only generate the highest revenue but also attract the most unique customers — proving their wide consumer appeal. Interestingly, Shell Fish and Seafood have a similar number of customers, yet Shell Fish brings in much higher revenue — indicating high-value purchases from loyal buyers. 
 
 
 

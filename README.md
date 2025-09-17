@@ -108,5 +108,23 @@ Confections and Meat not only generate the highest revenue but also attract the 
 
 
 
+## ⛄🌀⭐ Calculate the average price per unit for each product category ⭐🌀⛄  
+Query :
+```
+SELECT
+    c.CategoryName,
+    AVG(p.price) AS avg_price_per_unit
+FROM `fsda-sql-01.grocery_dataset.products` p
+JOIN `fsda-sql-01.grocery_dataset.categories` c
+    ON p.CategoryID = c.CategoryID
+GROUP BY c.CategoryName
+ORDER BY avg_price_per_unit DESC
+```
+
+
+Summary :
+The product category with the highest average price per unit is Grain — surprising for a staple often seen as inexpensive. Meanwhile, Shell Fish, typically considered a luxury item, has the lowest average price per unit. 
+
+
 ## ⛄🌀⭐ License ⭐🌀⛄ 
 - Copyright by Diantya Pitaloka

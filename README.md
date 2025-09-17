@@ -129,5 +129,31 @@ Summary :
 The product category with the highest average price per unit is Grain — surprising for a staple often seen as inexpensive. Meanwhile, Shell Fish, typically considered a luxury item, has the lowest average price per unit. 
 
 
+
+## ⛄🌀⭐ Evaluate the correlation between the average price per unit and the unique customers for each product category ⭐🌀⛄  
+Query :
+```
+SELECT
+    c.CategoryName,
+    AVG(p.Price) AS avg_price_per_unit,
+    COUNT(DISTINCT s.CustomerID) AS number_of_customers
+FROM `fsda-sql-01.grocery_dataset.sales` s
+JOIN `fsda-sql-01.grocery_dataset.products` p
+    ON s.ProductID = p.ProductID
+JOIN `fsda-sql-01.grocery_dataset.categories` c
+    ON p.CategoryID = c.CategoryID
+GROUP BY c.CategoryName
+ORDER BY avg_price_per_unit DESC
+
+```
+
+
+
+Summary :
+Categories with a higher average price per unit like Dairy and Snails still attract a large number of customers, proving that price isn’t always a barrier when the product is valued or essential. Meanwhile, Shell Fish has the lowest price per unit, yet maintains a strong customer base.
+
+
+
+
 ## ⛄🌀⭐ License ⭐🌀⛄ 
 - Copyright by Diantya Pitaloka

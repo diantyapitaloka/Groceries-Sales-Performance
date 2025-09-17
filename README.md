@@ -182,6 +182,7 @@ SELECT
 
 ```
 
+<img width="272" height="156" alt="image" src="https://github.com/user-attachments/assets/878cd0b5-3ba6-4281-be56-0d62fc1007b9" />
 
 
 Summary :

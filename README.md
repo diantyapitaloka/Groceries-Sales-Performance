@@ -147,6 +147,7 @@ ORDER BY avg_price_per_unit DESC
 
 ```
 
+<img width="271" height="184" alt="image" src="https://github.com/user-attachments/assets/0ce46b0b-f18c-40de-860b-e5a7117126ab" />
 
 
 Summary :

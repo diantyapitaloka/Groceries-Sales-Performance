@@ -156,5 +156,38 @@ Categories with a higher average price per unit like Dairy and Snails still attr
 
 
 
+## ⛄🌀⭐ Find categories contribute the most to overall revenue (percentage-wise) ⭐🌀⛄  
+Query :
+```
+--- Calculate Total Revenue for each category
+WITH revenue_cte AS (
+    SELECT
+        c.CategoryName,
+        SUM(s.Quantity * p.Price * (1 - s.Discount)) AS total_revenue
+    FROM `fsda-sql-01.grocery_dataset.sales` s
+    JOIN `fsda-sql-01.grocery_dataset.products` p
+        ON s.ProductID = p.ProductID
+    JOIN `fsda-sql-01.grocery_dataset.categories` c
+        ON p.CategoryID = c.CategoryID
+    GROUP BY c.CategoryName
+)
+--- Calculate The Percentage and Rank
+SELECT
+    categoryname,
+    total_revenue,
+    total_revenue / SUM(total_revenue) OVER() AS revenue_percentage,
+    RANK() OVER(ORDER BY total_revenue DESC) AS revenue_rank
+    FROM revenue_cte
+    ORDER BY revenue_rank
+
+```
+
+
+
+Summary :
+Categories with a higher average price per unit like Dairy and Snails still attract a large number of customers, proving that price isn’t always a barrier when the product is valued or essential. Meanwhile, Shell Fish has the lowest price per unit, yet maintains a strong customer base.
+
+
+
 ## ⛄🌀⭐ License ⭐🌀⛄ 
 - Copyright by Diantya Pitaloka

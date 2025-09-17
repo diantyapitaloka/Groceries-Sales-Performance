@@ -122,6 +122,9 @@ ORDER BY avg_price_per_unit DESC
 ```
 
 
+<img width="270" height="244" alt="image" src="https://github.com/user-attachments/assets/53eec875-c43d-4f54-a178-2deee8b840f3" />
+
+
 Summary :
 The product category with the highest average price per unit is Grain — surprising for a staple often seen as inexpensive. Meanwhile, Shell Fish, typically considered a luxury item, has the lowest average price per unit. 
 

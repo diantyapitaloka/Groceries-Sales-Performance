@@ -190,5 +190,45 @@ Categories with a higher average price per unit like Dairy and Snails still attr
 
 
 
+## ⛄🌀⭐ Find product categories that have the highest repeat purchase rate ⭐🌀⛄  
+Query :
+```
+WITH repeat_customers AS (
+    SELECT
+        c.CategoryName,
+        s.CustomerID,
+    FROM `fsda-sql-01.grocery_dataset.sales` s
+    JOIN `fsda-sql-01.grocery_dataset.products` p
+        ON s.ProductID = p.ProductID
+    JOIN `fsda-sql-01.grocery_dataset.categories` c
+        ON p.CategoryID = c.CategoryID
+    GROUP BY c.CategoryName, s.CustomerID
+    HAVING COUNT (s.CustomerID) > 1
+),
+
+total_customers AS (
+    SELECT
+        c.CategoryName,
+        COUNT(DISTINCT s.CustomerID) AS total_customers,  
+    FROM `fsda-sql-01.grocery_dataset.sales` s
+    JOIN `fsda-sql-01.grocery_dataset.products` p
+        ON s.ProductID = p.ProductID
+    JOIN `fsda-sql-01.grocery_dataset.categories` c
+        ON p.CategoryID = c.CategoryID
+    GROUP BY c.CategoryName
+)
+Next Query
+<img width="604" height="591" alt="image" src="https://github.com/user-attachments/assets/ca1a9fd9-a406-4e57-990a-2e0f6c99245b" />
+
+```
+
+
+
+Summary :
+The categories with the highest repeat purchase rate are Confections, Meat, and Poultry — indicating they’re part of customers’ regular needs.
+Meanwhile, Grain and Dairy have the lowest repeat rates, possibly due to bulk purchases or less frequent consumption.
+
+
+
 ## ⛄🌀⭐ License ⭐🌀⛄ 
 - Copyright by Diantya Pitaloka

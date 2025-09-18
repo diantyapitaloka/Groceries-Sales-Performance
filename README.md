@@ -218,7 +218,16 @@ total_customers AS (
     GROUP BY c.CategoryName
 )
 Next Query
-<img width="604" height="591" alt="image" src="https://github.com/user-attachments/assets/ca1a9fd9-a406-4e57-990a-2e0f6c99245b" />
+
+SELECT
+    total_customers.CategoryName,
+    COUNT (repeat_customers.CustomerID) / total_customers.total_customers AS repeat_purchase_rate
+FROM total_customers
+JOIN repeat_customers
+    ON total_customers.CategoryName = repeat_customers.CategoryName
+GROUP BY total_customers.CategoryName, total_
+ORDER BY repeat_purchase_rate DESC
+End Query
 
 ```
 

@@ -6,6 +6,7 @@ Leeon is a fictional online grocery detail business that operates in multiple lo
 
 
 ## ⛄🌀⭐ Dataset Schema ⭐🌀⛄
+Here is dataset schema :
 
 <img width="557" height="269" alt="image" src="https://github.com/user-attachments/assets/c2d1136b-75ed-4ecb-b957-ee39479637e0" />
 

@@ -32,6 +32,7 @@ The final step is to synthesize all the data and findings into a coherent summar
 
 
 ## ⛄🌀⭐ Methodology ⭐🌀⛄ 
+The methdology as down below :
 
 <img width="556" height="188" alt="image" src="https://github.com/user-attachments/assets/35c4f546-9985-4f27-80d1-16499b9c6547" />
 

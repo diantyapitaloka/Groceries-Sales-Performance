@@ -1,9 +1,10 @@
 ## ⛄🌀⭐ Groceries-Sales-Performance ⭐🌀⛄
 
 Leeon is a fictional grocery detail business that operates in multiple locations, offering a diverse range of grocery products to customers. The company aims to optimize sales strategies, enhance customer experience, and increase revenue by leveraging data-driven decision-making.
-.
-.
-.
+
+
+
+
 ## ⛄🌀⭐ Dataset Schema ⭐🌀⛄
 
 <img width="557" height="269" alt="image" src="https://github.com/user-attachments/assets/c2d1136b-75ed-4ecb-b957-ee39479637e0" />
@@ -251,6 +252,10 @@ Grain had the highest average price per unit at $0.56, while Shell Fish had the 
 
 3. Repeat Purchase & Retention
 Confections had the highest repeat rate at 23.3%, followed by Meat (19.5%) and Poultry (17.7%), indicating these categories successfully build customer loyalty.
+
+
+<img width="244" height="98" alt="image" src="https://github.com/user-attachments/assets/67895fa9-a4e5-4488-a8b6-ed1f8e29cee3" />
+
 
 
 ## ⛄🌀⭐ License ⭐🌀⛄ 

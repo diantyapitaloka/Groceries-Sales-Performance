@@ -232,6 +232,8 @@ End Query
 
 ```
 
+
+The final result are : 
 <img width="148" height="142" alt="image" src="https://github.com/user-attachments/assets/73abd7b6-1501-42aa-8a5b-ab21729cb4eb" />
 
 

@@ -243,6 +243,15 @@ Meanwhile, Grain and Dairy have the lowest repeat rates, possibly due to bulk pu
 
 
 ## ⛄🌀⭐ Summary ⭐🌀⛄ 
+1. Revenue & Sales Performance
+Confections generated the highest revenue at $565.9M with 4.9M units sold, followed by Meat at $526.3M. Although Poultry only sold 3.1M units, it still earned $386.2M, reflecting high value per sale.
+
+2. Pricing & Customer Demand
+Grain had the highest average price per unit at $0.56, while Shell Fish had the lowest at $0.17. Despite higher prices, Dairy attracted 159.9K unique customers, showing strong demand for premium items.
+
+3. Repeat Purchase & Retention
+Confections had the highest repeat rate at 23.3%, followed by Meat (19.5%) and Poultry (17.7%), indicating these categories successfully build customer loyalty.
+
 
 ## ⛄🌀⭐ License ⭐🌀⛄ 
 - Copyright by Diantya Pitaloka

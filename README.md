@@ -242,6 +242,7 @@ The categories with the highest repeat purchase rate are Confections, Meat, and 
 Meanwhile, Grain and Dairy have the lowest repeat rates, possibly due to bulk purchases or less frequent consumption.
 
 
+## ⛄🌀⭐ Summary ⭐🌀⛄ 
 
 ## ⛄🌀⭐ License ⭐🌀⛄ 
 - Copyright by Diantya Pitaloka

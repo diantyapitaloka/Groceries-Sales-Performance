@@ -258,6 +258,7 @@ Meanwhile, Grain and Dairy have the lowest repeat rates, possibly due to bulk pu
 
 
 ## ⛄🌀⭐ Summary ⭐🌀⛄ 
+The summary as down below :
 1. Revenue & Sales Performance
 Confections generated the highest revenue at $565.9M with 4.9M units sold, followed by Meat at $526.3M. Although Poultry only sold 3.1M units, it still earned $386.2M, reflecting high value per sale.
 

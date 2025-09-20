@@ -247,6 +247,7 @@ Meanwhile, Grain and Dairy have the lowest repeat rates, possibly due to bulk pu
 
 
 ## ⛄🌀⭐ Business Recommendation ⭐🌀⛄ 
+Here is the business recommendation : 
 
 1. Focus on high-value, low-volume items like Poultry, Fewer units, but higher revenue per sale
 2. Keep fast-moving, repeat-friendly products like Confections, Drives retention and frequent purchases

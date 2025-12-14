@@ -6,7 +6,7 @@
 - Data Focus: Website traffic, conversion rates, basket size, delivery costs, and last-mile efficiency.
 The business functions across multiple distinct geographical areas. This is crucial as sales performance will be heavily influenced by local market dynamics, product preferences, regional pricing, and local fulfillment center efficiency.
 
-Data Focus: Location-based segmentation of sales, regional product demand analysis, variance in delivery speed by region.
+- Data Focus: Location-based segmentation of sales, regional product demand analysis, variance in delivery speed by region.
 
 
 

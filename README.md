@@ -1,6 +1,9 @@
 ## ⛄🌀⭐ Groceries-Sales-Performance ⭐🌀⛄
 
-Leeon is a fictional online grocery detail business that operates in multiple locations, offering a diverse range of grocery products to customers. The company aims to optimize sales strategies, enhance customer experience, and increase revenue by leveraging data-driven decision-making.
+- Leeon is a fictional online grocery detail business that operates in multiple locations, offering a diverse range of grocery products to customers. The company aims to optimize sales strategies, enhance customer experience, and increase revenue by leveraging data-driven decision-making.
+Leeon is fundamentally an e-commerce platform specializing in the sale and delivery of food and household products. This defines its operational model (online transactions, logistics-heavy) and its competition (other online and physical grocers).
+
+Data Focus: Website traffic, conversion rates, basket size, delivery costs, and last-mile efficiency.
 
 
 

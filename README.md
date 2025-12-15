@@ -51,7 +51,7 @@ The methdology as down below :
 
 
 ## ⛄🌀⭐ Identify the product category that generates the highest revenue ⭐🌀⛄  
-Query :
+Here is query schema as down below :
 ```
 SELECT
     categoryname,

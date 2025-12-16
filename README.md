@@ -7,7 +7,7 @@
 The business functions across multiple distinct geographical areas. This is crucial as sales performance will be heavily influenced by local market dynamics, product preferences, regional pricing, and local fulfillment center efficiency.
 
 - Data Focus: Location-based segmentation of sales, regional product demand analysis, variance in delivery speed by region.
-- Leeon offers a broad catalog of grocery items (e.g., fresh produce, pantry staples, frozen goods, household essentials). This necessitates detailed inventory management and categorization to analyze which product categories drive the most revenue and profit.
+- Leeon groceries offers a broad catalog of grocery items (e.g., fresh produce, pantry staples, frozen goods, household essentials). This necessitates detailed inventory management and categorization to analyze which product categories drive the most revenue and profit.
 
 - Data Focus: Category-specific sales growth, stock-outs by category, gross margin per product line, and product bundling effectiveness.
 

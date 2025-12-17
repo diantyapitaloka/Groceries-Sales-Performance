@@ -10,6 +10,7 @@ The business functions across multiple distinct geographical areas. This is cruc
 - Leeon groceries offers a broad catalog of grocery items (e.g., fresh produce, pantry staples, frozen goods, household essentials). This necessitates detailed inventory management and categorization to analyze which product categories drive the most revenue and profit.
 
 - Data Focus: Category-specific sales growth, stock-outs by category, gross margin per product line, and product bundling effectiveness.
+- Customer Retention and Lifetime Value (CLV) -> This involves tracking repeat purchase rates, churn probability, and the long-term profitability of different customer segments to ensure high-frequency shoppers remain loyal to the platform.
 
 
 

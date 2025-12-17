@@ -11,7 +11,8 @@ The business functions across multiple distinct geographical areas. This is cruc
 
 - Data Focus: Category-specific sales growth, stock-outs by category, gross margin per product line, and product bundling effectiveness.
 - Customer Retention and Lifetime Value (CLV) -> This involves tracking repeat purchase rates, churn probability, and the long-term profitability of different customer segments to ensure high-frequency shoppers remain loyal to the platform.
-
+- Fulfillment and Last-Mile Logistics Efficiency
+This focuses on the operational costs of picking, packing, and delivering orders, specifically measuring delivery speed, route density, and the cost per order relative to the distance traveled.
 
 
 

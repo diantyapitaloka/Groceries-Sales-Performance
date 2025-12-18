@@ -11,6 +11,7 @@ The business functions across multiple distinct geographical areas. This is cruc
 - Fulfillment and Last-Mile Logistics Efficiency -> This focuses on the operational costs of picking, packing, and delivering orders, specifically measuring delivery speed, route density, and the cost per order relative to the distance traveled.
 - Order Accuracy and Perfect Order Rate: This tracks the percentage of orders that are delivered without errors (no missing items, no damaged goods, and delivered on time). In groceries, this is vital because "out of stocks" or bruised produce directly leads to customer churn.
 - Cold Chain Integrity & Waste Reduction: Since Leeon Groceries handles fresh and frozen goods, tracking the temperature consistency during transit and the rate of "shrinkage" (spoilage) in the delivery van is essential for maintaining margins and food safety.
+- Returns and Refund Rate (Reverse Logistics): Measuring the frequency and cost of returns or refunds due to quality issues or delivery delays. Unlike fashion e-commerce, grocery returns are often non-resellable, making this a high-impact cost center.
 
 
 

@@ -2,16 +2,14 @@
 
 - Leeon groceries is a fictional online grocery detail business that operates in multiple locations, offering a diverse range of grocery products to customers. The company aims to optimize sales strategies, enhance customer experience, and increase revenue by leveraging data-driven decision-making.
 - Leeon groceries is fundamentally an e-commerce platform specializing in the sale and delivery of food and household products. This defines its operational model (online transactions, logistics-heavy) and its competition (other online and physical grocers).
-
 - Data Focus Peformance : Website traffic, conversion rates, basket size, delivery costs, and last-mile efficiency.
 The business functions across multiple distinct geographical areas. This is crucial as sales performance will be heavily influenced by local market dynamics, product preferences, regional pricing, and local fulfillment center efficiency.
-
 - Data Focus: Location-based segmentation of sales, regional product demand analysis, variance in delivery speed by region.
 - Leeon groceries offers a broad catalog of grocery items (e.g., fresh produce, pantry staples, frozen goods, household essentials). This necessitates detailed inventory management and categorization to analyze which product categories drive the most revenue and profit.
-
 - Data Focus: Category-specific sales growth, stock-outs by category, gross margin per product line, and product bundling effectiveness.
 - Customer Retention and Lifetime Value (CLV) -> This involves tracking repeat purchase rates, churn probability, and the long-term profitability of different customer segments to ensure high-frequency shoppers remain loyal to the platform.
 - Fulfillment and Last-Mile Logistics Efficiency -> This focuses on the operational costs of picking, packing, and delivering orders, specifically measuring delivery speed, route density, and the cost per order relative to the distance traveled.
+- Order Accuracy and Perfect Order Rate: This tracks the percentage of orders that are delivered without errors (no missing items, no damaged goods, and delivered on time). In groceries, this is vital because "out of stocks" or bruised produce directly leads to customer churn.
 
 
 

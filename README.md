@@ -13,6 +13,7 @@ The business functions across multiple distinct geographical areas. This is cruc
 - Cold Chain Integrity & Waste Reduction: Since Leeon Groceries handles fresh and frozen goods, tracking the temperature consistency during transit and the rate of "shrinkage" (spoilage) in the delivery van is essential for maintaining margins and food safety.
 - Returns and Refund Rate (Reverse Logistics): Measuring the frequency and cost of returns or refunds due to quality issues or delivery delays. Unlike fashion e-commerce, grocery returns are often non-resellable, making this a high-impact cost center.
 - With these points added, your framework now covers the entire journey from the digital storefront to the customer's doorstep. This structure is ideal for building a Power BI/Tableau dashboard or a SQL database schema to track regional performance.
+- Dynamic Pricing and Competitive Benchmarking: This involves tracking real-time price fluctuations of competitors to adjust Leeon Groceries’ pricing algorithms for maximum competitiveness. By analyzing price elasticity, the business can balance volume and margin across different geographical regions and product categories.
 
 
 

@@ -2,6 +2,7 @@
 
 - Leeon groceries is a fictional online grocery detail business that operates in multiple locations, offering a diverse range of grocery products to customers. The company aims to optimize sales strategies, enhance customer experience, and increase revenue by leveraging data-driven decision-making.
 - Leeon groceries is fundamentally an e-commerce platform specializing in the sale and delivery of food and household products. This defines its operational model (online transactions, logistics-heavy) and its competition (other online and physical grocers).
+- Promotional Effectiveness and ROI: This evaluates the impact of discounts and seasonal campaigns on total sales volume versus the resulting profit margins. By analyzing which promotions drive genuine growth rather than just subsidizing existing demand, the business can refine its marketing spend.
 - Data Focus Peformance : Website traffic, conversion rates, basket size, delivery costs, and last-mile efficiency.
 The business functions across multiple distinct geographical areas. This is crucial as sales performance will be heavily influenced by local market dynamics, product preferences, regional pricing, and local fulfillment center efficiency.
 - Data Focus: Location-based segmentation of sales, regional product demand analysis, variance in delivery speed by region.

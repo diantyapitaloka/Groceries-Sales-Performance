@@ -6,8 +6,7 @@
 - Cold-Chain Temperature Compliance Rate: Tracks real-time IoT sensor data measuring temperature stability for cold and frozen goods from the distribution hub to the customer's doorstep. Maintaining strict cold-chain compliance eliminates spoilage, prevents health code violations, and minimizes food safety refund claims.
 - Recurring Subscription Auto-Replenishment Rate: Measures the percentage of total sales generated through automated, set-and-forget subscription orders (e.g., weekly coffee, paper towels, dairy). Higher recurring order volume provides predictable revenue streams and allows for precise forecasting of upstream supplier inventory.
 - Return on Ad Spend (ROAS) for Micro-Targeted Regional Campaigns: Evaluates the conversion effectiveness of geo-fenced marketing ads run specifically within new micro-fulfillment center (MFC) coverage areas. This helps marketing optimize acquisition spend by targeting only households that fall within actionable, low-cost delivery radii.
-
-Driver Tipping & Gratitude Index: Tracks the percentage of orders where customers opt to leave an optional tip or positive note for the courier. Higher average tip percentages boost total courier compensation without increasing Leeon's direct labor costs, directly improving driver retention rates.
+- Driver Tipping & Gratitude Index: Tracks the percentage of orders where customers opt to leave an optional tip or positive note for the courier. Higher average tip percentages boost total courier compensation without increasing Leeon's direct labor costs, directly improving driver retention rates.
 
 Packaging Circularity & Tote Return Rate: Measures the percentage of reusable thermal totes and ice packs successfully retrieved by couriers during subsequent deliveries. A high return rate lowers secondary packaging supply costs and reinforces the brand’s eco-friendly positioning.
 

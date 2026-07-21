@@ -2,6 +2,23 @@
 
 - Leeon groceries is a fictional online grocery detail business that operates in multiple locations, offering a diverse range of grocery products to customers. The company aims to optimize sales strategies, enhance customer experience, and increase revenue by leveraging data-driven decision-making.
 - This metric tracks the percentage of inventory sourced from farms and suppliers within a 100-mile radius of each regional distribution hub. Prioritizing local goods reduces the "field-to-fork" timeline, ensuring superior freshness and a longer shelf-life for the end consumer. Additionally, a high local-sourcing ratio serves as a powerful marketing tool for community-focused brand positioning and reduces long-haul transportation costs.
+- Substitutions Quality Score (SQS): Measures customer satisfaction with substitution decisions made by manual pickers when an AI suggestion isn't available. High accuracy in matching price point, dietary restrictions, and brand tier prevents customer churn over missing recipe anchors.
+
+Cold-Chain Temperature Compliance Rate: Tracks real-time IoT sensor data measuring temperature stability for cold and frozen goods from the distribution hub to the customer's doorstep. Maintaining strict cold-chain compliance eliminates spoilage, prevents health code violations, and minimizes food safety refund claims.
+
+Recurring Subscription Auto-Replenishment Rate: Measures the percentage of total sales generated through automated, set-and-forget subscription orders (e.g., weekly coffee, paper towels, dairy). Higher recurring order volume provides predictable revenue streams and allows for precise forecasting of upstream supplier inventory.
+
+Return on Ad Spend (ROAS) for Micro-Targeted Regional Campaigns: Evaluates the conversion effectiveness of geo-fenced marketing ads run specifically within new micro-fulfillment center (MFC) coverage areas. This helps marketing optimize acquisition spend by targeting only households that fall within actionable, low-cost delivery radii.
+
+Driver Tipping & Gratitude Index: Tracks the percentage of orders where customers opt to leave an optional tip or positive note for the courier. Higher average tip percentages boost total courier compensation without increasing Leeon's direct labor costs, directly improving driver retention rates.
+
+Packaging Circularity & Tote Return Rate: Measures the percentage of reusable thermal totes and ice packs successfully retrieved by couriers during subsequent deliveries. A high return rate lowers secondary packaging supply costs and reinforces the brand’s eco-friendly positioning.
+
+Cross-Category Basket Expansion Index: Tracks how effectively new customers move beyond basic staples (e.g., produce, dairy) into higher-margin categories like beauty, prepared meals, or specialty import goods. Broadening basket variety significantly increases the Gross Margin per Order (GMPO).
+
+Out-of-Stock (OOS) Phantom Inventory Rate: Identifies discrepancies between the stock levels displayed in the app and actual physical inventory on warehouse shelves. Reducing phantom inventory prevents mid-pick order cancellations and eliminates the need for last-minute customer service intervention.
+
+In-App Recipe-to-Cart Conversion Time: Tracks the duration between a user clicking an AI-curated recipe and completing the checkout process. Minimizing friction in this pipeline directly correlates with higher impulse buying and greater overall average basket size.
 - This measures customer loyalty specifically after a service failure has been resolved, such as a refund for a missing item. A high score here proves that the recovery process is robust enough to turn a frustrated shopper into a vocal brand advocate.
 - This analyzes the number of orders delivered within a specific city block or apartment complex to maximize "drop-off density." Higher to density allows a single driver to fulfill multiple orders in one stop, significantly lowering the marginal cost of the last-mile delivery.
 - This utilizes heat-mapping technology within fulfillment centers to minimize the physical distance a picker must walk to assemble an order. Improving the picking path directly increases the "units-per-hour" throughput and reduces the physical fatigue of the warehouse staff.
